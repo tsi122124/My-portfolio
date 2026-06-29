@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsion — AI & Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo"></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <p class="hero-label">Computer Engineer &amp; AI Engineer</p>
+            <h1>Tsion<br><span class="name">Habtesillasei</span></h1>
+            <div class="hero-role"><span id="typed-role"></span></div>
+            <p class="hero-desc">
+                Building end-to-end machine learning systems — from data pipelines and feature engineering
+                to model deployment and explainability. Currently deepening expertise in MLOps and Generative AI
+                through the Kifiya AI Mastery Program.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-num">3.81</div>
+                    <div class="stat-label">CGPA — Comp. Engineering</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">5+</div>
+                    <div class="stat-label">ML Projects Shipped</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">12wk</div>
+                    <div class="stat-label">AI Mastery Program</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <p class="section-eyebrow">// about me</p>
+        <h2>Engineer by training,<br>data scientist in practice.</h2>
+        <div class="section-divider"></div>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I'm a Computer Engineering graduate from <strong>Dire Dawa University</strong> (CGPA 3.81), currently
+                    enrolled in the <strong>Kifiya AI Mastery (KAIM) Program</strong> at 10 Academy — a 12-week
+                    intensive covering Machine Learning, Generative AI, Data Engineering, and MLOps. Also at <strong>AI
+                        powered full stack application development program</strong> at Evangadi Tech-6 months bootcamp
+                    teaching
+                    Fullstack Web Application from the ground up, starting with the fundamentals and advancing to the
+                    deployment of an
+                    enterprise-scale application.</p>
+                <p>My engineering mindset shapes how I approach data problems: modular architecture, reproducible
+                    pipelines, rigorous testing, and CI/CD from day one. I care about building systems that actually
+                    work in production, not just notebooks that score well.</p>
+                <p>Work experience includes an <strong>IT Officer role at Oclock Motors</strong> and a
+                    <strong>Laboratory Technician position at Dire Dawa University</strong>, giving me a grounded sense
+                    of how technology serves real organisations.
+                </p>
+            </div>
+            <div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-card-title">ML / AI</div>
+                        <div class="skill-tags">
+                            <span class="tag">XGBoost</span><span class="tag">scikit-learn</span>
+                            <span class="tag">SHAP</span><span class="tag">SMOTE</span>
+                            <span class="tag">K-Means</span><span class="tag">MLflow</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-title">Engineering</div>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span><span class="tag">FastAPI</span>
+                            <span class="tag">Docker</span><span class="tag">GitHub Actions</span>
+                            <span class="tag">pytest</span><span class="tag">DVC</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-title">Data</div>
+                        <div class="skill-tags">
+                            <span class="tag">pandas</span><span class="tag">NumPy</span>
+                            <span class="tag">RFM Analysis</span><span class="tag">EDA</span>
+                            <span class="tag">A/B Testing</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-title">Tools</div>
+                        <div class="skill-tags">
+                            <span class="tag">Git</span><span class="tag">Linux</span>
+                            <span class="tag">VS Code</span><span class="tag">Jupyter</span>
+                            <span class="tag">Matplotlib</span><span class="tag">Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <p class="section-eyebrow">// selected work</p>
+        <h2>Projects</h2>
+        <div class="section-divider"></div>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-badge">Fraud Detection · 10 Academy</div>
+                <h3>E-Commerce Fraud Detection Pipeline</h3>
+                <p>End-to-end ML pipeline for Adey Innovations Inc. detecting fraudulent transactions in e-commerce and
+                    credit card data. Key finding: <code
+                        style="color:var(--teal);font-size:.82em">time_since_signup</code> was the dominant fraud
+                    signal. Addressed class imbalance with SMOTE and provided SHAP-based model explainability.</p>
+                <div class="project-footer">
+                    <div class="project-stack">
+                        <span class="tag">XGBoost</span><span class="tag">SHAP</span><span class="tag">SMOTE</span><span
+                            class="tag">CI/CD</span>
+                    </div>
+                    <a href="https://github.com/tsi122124" class="project-link" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Credit Risk · Bati Bank</div>
+                <h3>BNPL Credit Risk Modelling</h3>
+                <p>Built a credit risk model for Bati Bank's Buy Now Pay Later service. Engineered a proxy default label
+                    using RFM analysis and K-Means clustering. Delivered a full MLOps stack: scikit-learn Pipelines,
+                    MLflow experiment tracking, FastAPI serving, and Docker containerisation.</p>
+                <div class="project-footer">
+                    <div class="project-stack">
+                        <span class="tag">MLflow</span><span class="tag">FastAPI</span><span
+                            class="tag">Docker</span><span class="tag">K-Means</span>
+                    </div>
+                    <a href="https://github.com/tsi122124/credit-risk-model" class="project-link" target="_blank">GitHub
+                        →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Insurance Analytics · ACIS</div>
+                <h3>Insurance Risk Analytics (AlphaCare)</h3>
+                <p>Statistical risk analysis on South African car insurance data for AlphaCare Insurance Solutions.
+                    Completed EDA with 12 visualisations, 13 passing unit tests, and four modular source modules. Tasks
+                    cover DVC versioning, A/B hypothesis testing, and predictive modelling.</p>
+                <div class="project-footer">
+                    <div class="project-stack">
+                        <span class="tag">DVC</span><span class="tag">A/B Testing</span><span
+                            class="tag">pandas</span><span class="tag">pytest</span>
+                    </div>
+                    <a href="https://github.com/tsi122124" class="project-link" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <p class="section-eyebrow">// background</p>
+        <h2>Experience &amp; Education</h2>
+        <div class="section-divider"></div>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-date">April 2026 – Present</div>
+                <h3>AI & ML Trainee</h3>
+                <div class="timeline-org">Kifiya AI Mastery Program · 10 Academy, Remote</div>
+                <div class="timeline-desc">12-week intensive program covering Machine Learning, Generative AI, Data
+                    Engineering, and MLOps. Completing graded end-to-end ML challenges with production-grade practices:
+                    modular src/ architecture, Git branching strategy, GitHub Actions CI/CD, and polished written
+                    deliverables.</div>
+            </div>
+
+
+            <div class="timeline-item">
+                <div class="timeline-date">NOV 2025 – PRESENT</div>
+                <h3>Laboratory Technician</h3>
+                <div class="timeline-org">Dire Dawa University · Dire Dawa, Ethiopia</div>
+                <div class="timeline-desc">Supported laboratory operations within the engineering faculty, gaining
+                    hands-on experience in technical environments and precision work.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">JUN 2025 – NOV 2025</div>
+                <h3>IT Officer</h3>
+                <div class="timeline-org">Oclock Motors · Addis Ababa, Ethiopia</div>
+                <div class="timeline-desc">Managed IT infrastructure and systems, supporting day-to-day operations and
+                    ensuring technology reliability across the organisation.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">Graduated</div>
+                <h3>BSc Computer Engineering</h3>
+                <div class="timeline-org">Dire Dawa University · CGPA 3.81</div>
+                <div class="timeline-desc">Strong foundation in computer architecture, algorithms, networks, and
+                    software engineering. Graduated with distinction.</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <p class="section-eyebrow">// let's connect</p>
+        <h2>Open to Opportunities</h2>
+        <div class="section-divider"></div>
+        <p class="contact-sub">I'm actively looking for IT and AI/ML roles in Ethiopia. If you have an opportunity or
+            want to collaborate, I'd love to hear from you.</p>
+        <div class="contact-links">
+            <a href="https://github.com/tsi122124" class="contact-chip" target="_blank">
+                <span class="chip-dot"></span>GitHub
+            </a>
+            <a href="mailto:tsionhabte6@gmail.com" class="contact-chip">
+                <span class="chip-dot"></span>Email
+            </a>
+            <a href="https://linkedin.com/in/tsion-habtesillassei" class="contact-chip" target="_blank">
+                <span class="chip-dot"></span>LinkedIn
+            </a>
+            <a href="https://t.me/yourhandle" class="contact-chip" target="_blank">
+                <span class="chip-dot"></span>Telegram
+            </a>
+            <a href="tel:+251943184248" class="contact-chip">
+                <span class="chip-dot"></span>Phone:+251943184248
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <span>© 2026 Tsion Habtesilasei</span>
+        <span>Built with intention · Addis Ababa, Ethiopia</span>
+    </footer>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
