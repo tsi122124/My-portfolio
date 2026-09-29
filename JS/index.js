@@ -1,9 +1,10 @@
 // Typewriter effect
 const roles = [
-  "ML Engineer",
-  "Data Scientist",
-  "AI Engineer",
+  "AL Engineer",
+  "MI Engineer",
+  "Software Engineer",
   "Fullstack Developer",
+  "Data Scientist",
 ];
 let ri = 0,
   ci = 0,
